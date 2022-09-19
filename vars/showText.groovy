@@ -1,7 +1,7 @@
 
 def showStr (String firstName, String lastName) {
   // sh 'echo "first name: ${firstName}, last name: ${lastName}"'
-  sh "first name: ${firstName}, last name: ${lastName}"
+  echo "first name: ${firstName}, last name: ${lastName}"
 }
 
 def showMap (Map config = [:]) {
